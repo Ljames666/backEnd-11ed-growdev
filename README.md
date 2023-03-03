@@ -53,7 +53,7 @@ ou em um comando pode instale todas
 ```bash
 $ npm i -D typescript @types/node ts-node-dev
 ```
-O passo seguinte é gera o arquivo de configuração do ts, execute o seguinte comando no terminal:
+O passo seguinte é gerar o arquivo de configuração do ts, execute o seguinte comando no terminal:
 ```bash
 $ npx tsc --init
 ```
