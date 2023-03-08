@@ -7,6 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "aula1": "ts-node-dev --respawn --transpile-only ./aula1/src/index.ts",
         "aula2": "ts-node-dev --respawn --transpile-only ./aula2/src/exRespostas.main.ts",
+        "aula3": "ts-node-dev --respawn --transpile-only ./aula3/index.ts",
         "build": "npx tsc && node ./dist/index.js"
     },
     "keywords": [],
