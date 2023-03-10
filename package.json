@@ -8,6 +8,7 @@
         "aula1": "ts-node-dev --respawn --transpile-only ./aula1/src/index.ts",
         "aula2": "ts-node-dev --respawn --transpile-only ./aula2/src/exRespostas.main.ts",
         "aula3": "ts-node-dev --respawn --transpile-only ./aula3/index.ts",
+        "aula4": "ts-node-dev --respawn --transpile-only ./aula4/index.ts",
         "build": "npx tsc && node ./dist/index.js"
     },
     "keywords": [],
