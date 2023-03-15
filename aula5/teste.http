@@ -1,0 +1,49 @@
+GET http://localhost:8081/ex2 
+###
+POST http://localhost:8081/ex2 
+content-type: application/json
+
+{
+"id": 2,
+"name": "james2",
+"age": 21
+}
+###
+
+GET http://localhost:8081/ex2/users 
+
+####
+
+# somar ex2
+GET http://localhost:8081/calculadora?operacao=somar&valorA=7&valorB=13 
+###
+# subtrair ex2
+GET http://localhost:8081/calculadora?operacao=subtrair&valorA=30&valorB=13 
+###
+# multiplicar ex2
+GET http://localhost:8081/calculadora?operacao=multiplicar&valorA=8&valorB=8 
+###
+# dividir ex2
+GET http://localhost:8081/calculadora?operacao=dividir&valorA=120&valorB=10 
+###
+# errorex2
+GET http://localhost:8081/calculadora?operacao=divdir&valorA=120&valorB=10 
+###
+
+# exercicio 3
+GET http://localhost:8081/ex3
+###
+
+
+# exercicio 4
+GET http://localhost:8081/numeral?operacao=anterior&numero=5
+###
+GET http://localhost:8081/numeral?numero=5&operacao=proximo
+###
+
+# exercicio 5
+GET http://localhost:8081/inverter-string?valor=james
+###
+# exercicio 6
+GET http://localhost:8081/remover-vogais?valor=jonAthan
+###
